@@ -30,6 +30,7 @@
 
 /* GENERAL */
 
+
 * {
     margin: 0;
     padding: 0;
@@ -45,7 +46,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     background: var(--color-bg);
     line-height: 1.6;
-    overflow: hidden;
+    /* اسکرول افقی */
+    overflow-x: hidden;
+    /* اسکرول عمودی */
+    overflow-y: auto;
     color: var(--color-gray-200);
     font-size: 0.9rem;
 }
@@ -230,6 +234,19 @@ nav button {
     gap: 4rem;
 }
 
-.featured .post__thumbnail{
+.featured .post__thumbnail {
     height: fit-content;
+}
+
+/* POSTS */
+
+.posts__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    margin-bottom: 5rem;
+}
+
+.posts .category__button {
+    margin-bottom: 10px;
 }
