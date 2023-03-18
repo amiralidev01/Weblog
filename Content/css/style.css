@@ -396,6 +396,15 @@ footer ul a:hover {
     line-height: 1.7;
 }
 
+/* CATEGORY TITLE */
+.category__title {
+    height: 15rem;
+    margin-top: 4.5rem;
+    background: var(--color-gray-900);
+    display: grid;
+    place-items: center;
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 
 @media screen and (max-width: 1024px) {
