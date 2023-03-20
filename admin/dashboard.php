@@ -32,7 +32,7 @@
 
                 <li class="nav__profile">
                     <div class="avatar">
-                        <img src="Content/images/avatar15.jpg" alt="">
+                        <img src="/Content/images/avatar15.jpg" alt="">
                     </div>
                     <ul>
                         <li><a href="dashboard.html">Dashboard</a></li>
